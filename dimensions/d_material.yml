@@ -1,0 +1,19 @@
+unique_name: d_material
+object_type: dimension
+label: Dim Material
+hierarchies:
+  - unique_name: h_material
+    label: Material Hierarchy
+    levels:
+      - unique_name: material_number
+level_attributes:
+  - unique_name: material_number
+    label: Material Number
+    contains_unique_names: false
+    dataset: material_material
+    is_unique_key: false
+    key_columns:
+      - Material
+    name_column: Material
+    sort_column: Material
+type: standard

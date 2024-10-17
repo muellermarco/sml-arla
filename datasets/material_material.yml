@@ -1,0 +1,502 @@
+unique_name: material_material
+object_type: dataset
+label: material_material
+columns:
+  - name: AfsElementaryFieldColor
+    data_type: string
+  - name: AfsElementaryFieldColorText
+    data_type: string
+  - name: AfsFabricContentCode
+    data_type: string
+  - name: AfsFabricContentCodeText
+    data_type: string
+  - name: AfsTargetGroup
+    data_type: string
+  - name: AfsTargetGroupText
+    data_type: string
+  - name: AfsGrid
+    data_type: string
+  - name: AfsGridText
+    data_type: string
+  - name: AfsIntersection
+    data_type: string
+  - name: ApoProduct
+    data_type: string
+  - name: ApoProductText
+    data_type: string
+  - name: BaseUnitOfMeasure
+    data_type: string
+  - name: BaseUnitOfMeasureText
+    data_type: string
+  - name: BasicMaterialBasicConstituentOfAMaterial
+    data_type: string
+  - name: BbpProduct
+    data_type: string
+  - name: BbpProductText
+    data_type: string
+  - name: BillingBlockHeader
+    data_type: string
+  - name: BillingBlockHeaderText
+    data_type: string
+  - name: LastChangedOn
+    data_type: string
+  - name: Competitors
+    data_type: string
+  - name: CompetitorsText
+    data_type: string
+  - name: ContentUnit
+    data_type: string
+  - name: ContentUnitText
+    data_type: string
+  - name: NameOfPersonWhoCreatedTheObject
+    data_type: string
+  - name: DateOnWhichTheRecordWasCreated
+    data_type: string
+  - name: Product
+    data_type: string
+  - name: ProductText
+    data_type: string
+  - name: DeletionFlagForAllMaterialDataOfAPlant
+    data_type: string
+  - name: HazardousMaterialNumber
+    data_type: string
+  - name: ProfileForDangerousGoodsIndicator
+    data_type: string
+  - name: ProfileForDangerousGoodsIndicatorText
+    data_type: string
+  - name: Division
+    data_type: string
+  - name: DivisionText
+    data_type: string
+  - name: EuropeanArticleNumbersUniversalProductCode
+    data_type: string
+  - name: ExternalMaterialGroup
+    data_type: string
+  - name: ActiveIngredient1MainActiveIngredient
+    data_type: string
+  - name: ActiveIngredient1MainActiveIngredientText
+    data_type: string
+  - name: ActiveIngredient2
+    data_type: string
+  - name: ActiveIngredient2Text
+    data_type: string
+  - name: ActiveIngredient3
+    data_type: string
+  - name: ActiveIngredient3Text
+    data_type: string
+  - name: AnestheticIndicator
+    data_type: string
+  - name: ApprovalType
+    data_type: string
+  - name: ApprovalTypeText
+    data_type: string
+  - name: AtcCode
+    data_type: string
+  - name: AtcCodeText
+    data_type: string
+  - name: TypeOfMedCategoryForAtcCode
+    data_type: string
+  - name: TypeOfMedCategoryForAtcCodeText
+    data_type: string
+  - name: Catalog1Indicator
+    data_type: string
+  - name: Catalog2Indicator
+    data_type: string
+  - name: Catalog3Indicator
+    data_type: string
+  - name: HazardousSubstanceIndicator
+    data_type: string
+  - name: ImportMaterialIndicator
+    data_type: string
+  - name: IndustrySector
+    data_type: string
+  - name: LocalCurrency
+    data_type: string
+  - name: LocalCurrencyText
+    data_type: string
+  - name: SourceSystem
+    data_type: string
+  - name: Manufacturer
+    data_type: string
+  - name: ManufacturerText
+    data_type: string
+  - name: Material
+    data_type: string
+  - name: MaterialText
+    data_type: string
+  - name: MaterialCategory
+    data_type: string
+  - name: MaterialCategoryText
+    data_type: string
+  - name: MaterialGroup
+    data_type: string
+  - name: MaterialGroupText
+    data_type: string
+  - name: MaterialType
+    data_type: string
+  - name: MaterialTypeText
+    data_type: string
+  - name: BusinessPartnerAuthorizationGroup
+    data_type: string
+  - name: BusinessPartnerAuthorizationGroupText
+    data_type: string
+  - name: Usage
+    data_type: string
+  - name: UsageText
+    data_type: string
+  - name: OrderUnit
+    data_type: string
+  - name: OrderUnitText
+    data_type: string
+  - name: ProductHierarchy
+    data_type: string
+  - name: ProductHierarchyText
+    data_type: string
+  - name: Brand
+    data_type: string
+  - name: BrandText
+    data_type: string
+  - name: GeneralAnalysisCharacteristic
+    data_type: string
+  - name: Size2
+    data_type: string
+  - name: Size2Text
+    data_type: string
+  - name: MaterialGroupHierarchyLevel1
+    data_type: string
+  - name: MaterialGroupHierarchyLevel1Text
+    data_type: string
+  - name: MaterialGroupHierarchyLevel2
+    data_type: string
+  - name: MaterialGroupHierarchyLevel2Text
+    data_type: string
+  - name: MaterialGroupHierarchyLevel3
+    data_type: string
+  - name: MaterialGroupHierarchyLevel3Text
+    data_type: string
+  - name: MaterialGroupHierarchyLevel4
+    data_type: string
+  - name: MaterialGroupHierarchyLevel4Text
+    data_type: string
+  - name: Color
+    data_type: string
+  - name: ColorText
+    data_type: string
+  - name: ColorCharacteristicRange
+    data_type: string
+  - name: ColorCharacteristicRangeText
+    data_type: string
+  - name: CrossPlantConfigurMaterial
+    data_type: string
+  - name: FashionGrade
+    data_type: string
+  - name: FashionGradeText
+    data_type: string
+  - name: MasterDataReleaseStatus
+    data_type: string
+  - name: MasterDataReleaseStatusText
+    data_type: string
+  - name: PriceBandCategory
+    data_type: string
+  - name: PriceBandCategoryText
+    data_type: string
+  - name: ProcurementRule
+    data_type: string
+  - name: ProcurementRuleText
+    data_type: string
+  - name: Collection
+    data_type: string
+  - name: CollectionText
+    data_type: string
+  - name: SeasonCategory
+    data_type: string
+  - name: SeasonCategoryText
+    data_type: string
+  - name: SeasonYear
+    data_type: string
+  - name: SeasonYear2
+    data_type: string
+  - name: Size
+    data_type: string
+  - name: SizeText
+    data_type: string
+  - name: SizeCharacteristicRange
+    data_type: string
+  - name: SizeCharacteristicRangeText
+    data_type: string
+  - name: SourceOfSupply
+    data_type: string
+  - name: SourceOfSupplyText
+    data_type: string
+  - name: SizeDimension
+    data_type: string
+  - name: IndustryStandardDescriptionSuchAsDin
+    data_type: string
+  - name: CertificationType
+    data_type: string
+  - name: CertificationTypeText
+    data_type: string
+  - name: ConstructionClass
+    data_type: string
+  - name: ConstructionClassText
+    data_type: string
+  - name: FunctionClass
+    data_type: string
+  - name: FunctionClassText
+    data_type: string
+  - name: UnitOfDimensionForLengthWidthHeight
+    data_type: string
+  - name: UnitOfDimensionForLengthWidthHeightText
+    data_type: string
+  - name: WeightUnit
+    data_type: string
+  - name: WeightUnitText
+    data_type: string
+  - name: Vendor
+    data_type: string
+  - name: VendorText
+    data_type: string
+  - name: VolumeUnit
+    data_type: string
+  - name: VolumeUnitText
+    data_type: string
+  - name: GlobalBrand
+    data_type: string
+  - name: GlobalBrandLevel1
+    data_type: string
+  - name: GlobalBrandLevel1Text
+    data_type: string
+  - name: GlobalBrandLevel2
+    data_type: string
+  - name: GlobalBrandLevel2Text
+    data_type: string
+  - name: GlobalBrandLevel3
+    data_type: string
+  - name: GlobalBrandLevel3Text
+    data_type: string
+  - name: GlobalBrandLevel4
+    data_type: string
+  - name: GlobalBrandLevel4Text
+    data_type: string
+  - name: GlobalBrandLevel5
+    data_type: string
+  - name: GlobalBrandLevel5Text
+    data_type: string
+  - name: GlobalBrandText
+    data_type: string
+  - name: DesignDocNo
+    data_type: string
+  - name: CgsBbdNumberOfDays
+    data_type: string
+  - name: TemperatureConditionsIndicator
+    data_type: string
+  - name: ArlaMilkType
+    data_type: string
+  - name: ArlaMilkTypeText
+    data_type: string
+  - name: Ownership
+    data_type: string
+  - name: OwnershipText
+    data_type: string
+  - name: RootMaterial
+    data_type: string
+  - name: RootMaterialText
+    data_type: string
+  - name: DanishDairyBoardCode
+    data_type: string
+  - name: DelitionIndicatorAtClientLevel
+    data_type: string
+  - name: DutyFatPercentage
+    data_type: string
+  - name: EanConsumer
+    data_type: string
+  - name: PackagingConcept
+    data_type: string
+  - name: PackagingFormat
+    data_type: string
+  - name: FatContent
+    data_type: string
+  - name: InclExclIndicator
+    data_type: string
+  - name: SOpReportingStatus
+    data_type: string
+  - name: SOpReportingStatusText
+    data_type: string
+  - name: NpdMroFollowupType
+    data_type: string
+  - name: NpdMroFollowupTypeText
+    data_type: string
+  - name: ContainsValueForZprodcat
+    data_type: string
+  - name: ContainsValueForZprodcatText
+    data_type: string
+  - name: InnovationValidFromDate
+    data_type: string
+  - name: InnovationTag
+    data_type: string
+  - name: InnovationTagText
+    data_type: string
+  - name: Confectioning
+    data_type: string
+  - name: LactoseContent
+    data_type: string
+  - name: LactoseContentText
+    data_type: string
+  - name: NpdMroLaunchDate
+    data_type: string
+  - name: LifeProlongingUht
+    data_type: string
+  - name: LifeProlongingUhtText
+    data_type: string
+  - name: MarketingAttribute
+    data_type: string
+  - name: MarketingAttributeText
+    data_type: string
+  - name: Zmarkt1FieldYesPerTableEntry
+    data_type: string
+  - name: Zmarkt2FieldYesPerTableEntry
+    data_type: string
+  - name: Zmarkt3FieldYesPerTableEntry
+    data_type: string
+  - name: Zmarkt4FieldYesPerTableEntry
+    data_type: string
+  - name: Zmarkt5FieldYesPerTableEntry
+    data_type: string
+  - name: Zmarkt6FieldYesPerTableEntry
+    data_type: string
+  - name: Zmarkt7FieldYesPerTableEntry
+    data_type: string
+  - name: Zmarkt8FieldYesPerTableEntry
+    data_type: string
+  - name: Fairtrade
+    data_type: string
+  - name: Luomu
+    data_type: string
+  - name: Utz
+    data_type: string
+  - name: OMaerket
+    data_type: string
+  - name: Weidemilch
+    data_type: string
+  - name: Unpasteruized
+    data_type: string
+  - name: Sverigekannan
+    data_type: string
+  - name: GmoFree
+    data_type: string
+  - name: NonCowmilkBasedProduct
+    data_type: string
+  - name: NonCowmilkBasedProductText
+    data_type: string
+  - name: OffSpecIndicator
+    data_type: string
+  - name: OffSpecIndicatorText
+    data_type: string
+  - name: OldMaterial
+    data_type: string
+  - name: OldMaterialText
+    data_type: string
+  - name: PlanningMaterial
+    data_type: string
+  - name: PlanningMaterialText
+    data_type: string
+  - name: ProductCategoryL1
+    data_type: string
+  - name: ProductCategoryL1Text
+    data_type: string
+  - name: ProductCategoryL2
+    data_type: string
+  - name: ProductCategoryL2Text
+    data_type: string
+  - name: ProductCategoryL3
+    data_type: string
+  - name: ProductCategoryL3Text
+    data_type: string
+  - name: ProductCategoryL4
+    data_type: string
+  - name: ProductCategoryL4Text
+    data_type: string
+  - name: ProductCategoryL5
+    data_type: string
+  - name: ProductCategoryL5Text
+    data_type: string
+  - name: ProductCategory
+    data_type: string
+  - name: ProductCategoryText
+    data_type: string
+  - name: ProductionMethodOfRawmaterial
+    data_type: string
+  - name: ProductionMethodOfRawmaterialText
+    data_type: string
+  - name: NpdMroProjectId
+    data_type: string
+  - name: NpdMroProjectIdText
+    data_type: string
+  - name: PromotionProductIndicator
+    data_type: string
+  - name: PromotionProductIndicatorText
+    data_type: string
+  - name: RefinementLevel
+    data_type: string
+  - name: RefinementLevelText
+    data_type: string
+  - name: ReportingGroupTax
+    data_type: string
+  - name: ReportingGroupTaxText
+    data_type: string
+  - name: SaturatedFatPercentage
+    data_type: string
+  - name: SoldToCountry
+    data_type: string
+  - name: SoldToCountryText
+    data_type: string
+  - name: StorageCondition
+    data_type: string
+  - name: StorageConditionText
+    data_type: string
+  - name: TaxRelevance
+    data_type: string
+  - name: TaxRelevanceText
+    data_type: string
+  - name: CatchWeightIndicator
+    data_type: string
+  - name: CatchWeightIndicatorText
+    data_type: string
+  - name: XPlantMatlStatus
+    data_type: string
+  - name: XPlantMatlStatusText
+    data_type: string
+  - name: XPlantValidFromDate
+    data_type: string
+  - name: PlannedPurchasePriceCurrency
+    data_type: string
+  - name: GrossContents
+    data_type: decimal(17,3)
+  - name: GrossWeight
+    data_type: decimal(17,3)
+  - name: Height
+    data_type: decimal(17,3)
+  - name: Length
+    data_type: decimal(17,3)
+  - name: NetContents
+    data_type: decimal(17,3)
+  - name: NetWeightOfItem
+    data_type: decimal(17,3)
+  - name: PlannedPurchasePrice
+    data_type: decimal(17,2)
+  - name: Volume
+    data_type: decimal(17,3)
+  - name: Width
+    data_type: decimal(17,3)
+  - name: ConversionFactorAltUom
+    data_type: decimal(17,3)
+  - name: BbdNumberOfDays
+    data_type: decimal(17,3)
+  - name: EanQuantityInPc
+    data_type: decimal(17,3)
+  - name: ScalingFactorToPlanMaterial
+    data_type: float
+  - name: PlanMaterialEanQuantityInPc
+    data_type: decimal(17,3)
+connection_id: con_dev_masterdata_crossfunctional
+table: material_material

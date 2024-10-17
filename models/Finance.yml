@@ -18,3 +18,11 @@ relationships:
     to:
       dimension: d_customer
       level: customer_number
+  - unique_name: copaactualsdetailed_Material_to_d_material_material_number
+    from:
+      dataset: copaactualsdetailed
+      join_columns:
+        - Material
+    to:
+      dimension: d_material
+      level: material_number
