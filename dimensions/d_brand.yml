@@ -10,7 +10,6 @@ hierarchies:
       - unique_name: brand_level_3
       - unique_name: brand_level_4
       - unique_name: brand_level_5
-      - unique_name: brand_level_6
 level_attributes:
   - unique_name: brand_level_1
     label: Brand Level 1
@@ -19,7 +18,7 @@ level_attributes:
     is_unique_key: false
     key_columns:
       - BrandHierarchyLevel1ID
-    name_column: BrandHierarchyLevel1ID
+    name_column: BrandHierarchyLevel1Text
     sort_column: BrandHierarchyLevel1ID
   - unique_name: brand_level_2
     label: Brand Level 2
@@ -28,7 +27,7 @@ level_attributes:
     is_unique_key: false
     key_columns:
       - BrandHierarchyLevel2ID
-    name_column: BrandHierarchyLevel2ID
+    name_column: BrandHierarchyLevel2Text
   - unique_name: brand_level_3
     label: Brand Level 3
     contains_unique_names: false
@@ -36,7 +35,7 @@ level_attributes:
     is_unique_key: false
     key_columns:
       - BrandHierarchyLevel3ID
-    name_column: BrandHierarchyLevel3ID
+    name_column: BrandHierarchyLevel3Text
   - unique_name: brand_level_4
     label: Brand Level 4
     contains_unique_names: false
@@ -44,7 +43,7 @@ level_attributes:
     is_unique_key: false
     key_columns:
       - BrandHierarchyLevel4ID
-    name_column: BrandHierarchyLevel4ID
+    name_column: BrandHierarchyLevel4Text
   - unique_name: brand_level_5
     label: Brand Level 5
     contains_unique_names: false
@@ -52,13 +51,5 @@ level_attributes:
     is_unique_key: false
     key_columns:
       - BrandHierarchyLevel5ID
-    name_column: BrandHierarchyLevel5ID
-  - unique_name: brand_level_6
-    label: Brand Level 6
-    contains_unique_names: false
-    dataset: material_brandhierarchy
-    is_unique_key: false
-    key_columns:
-      - BrandHierarchyLevel6ID
-    name_column: BrandHierarchyLevel6ID
+    name_column: BrandHierarchyLevel5Text
 type: standard
