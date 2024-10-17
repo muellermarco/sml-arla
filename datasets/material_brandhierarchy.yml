@@ -1,0 +1,30 @@
+unique_name: material_brandhierarchy
+object_type: dataset
+label: material_brandhierarchy
+columns:
+  - name: BrandHierarchyLevel1ID
+    data_type: string
+  - name: BrandHierarchyLevel1Text
+    data_type: string
+  - name: BrandHierarchyLevel2ID
+    data_type: string
+  - name: BrandHierarchyLevel2Text
+    data_type: string
+  - name: BrandHierarchyLevel3ID
+    data_type: string
+  - name: BrandHierarchyLevel3Text
+    data_type: string
+  - name: BrandHierarchyLevel4ID
+    data_type: string
+  - name: BrandHierarchyLevel4Text
+    data_type: string
+  - name: BrandHierarchyLevel5ID
+    data_type: string
+  - name: BrandHierarchyLevel5Text
+    data_type: string
+  - name: BrandHierarchyLevel6ID
+    data_type: string
+  - name: BrandHierarchyLevel6Text
+    data_type: string
+connection_id: con_dev_masterdata_crossfunctional
+table: material_brandhierarchy

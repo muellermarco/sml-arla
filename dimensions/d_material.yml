@@ -16,4 +16,16 @@ level_attributes:
       - Material
     name_column: Material
     sort_column: Material
+relationships:
+  - unique_name: material_material_GlobalBrandLevel5_to_d_brand_brand_level_5
+    from:
+      dataset: material_material
+      hierarchy: h_material
+      join_columns:
+        - GlobalBrandLevel5
+      level: material_number
+    to:
+      dimension: d_brand
+      level: brand_level_5
+    type: embedded
 type: standard

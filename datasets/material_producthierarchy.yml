@@ -1,0 +1,44 @@
+unique_name: material_producthierarchy
+object_type: dataset
+label: material_producthierarchy
+columns:
+  - name: Client
+    data_type: string
+  - name: ProductHierarchyKey
+    data_type: string
+  - name: BrandLevel1Hierarchy
+    data_type: string
+  - name: BrandLevel3Hierarchy
+    data_type: string
+  - name: BrandLevel4Hierarchy
+    data_type: string
+  - name: ProductHierarchyLevel1ID
+    data_type: string
+  - name: PCategoryHierarchyLevel1Text
+    data_type: string
+  - name: ProductHierarchyLevel2ID
+    data_type: string
+  - name: PCategoryHierarchyLevel2Text
+    data_type: string
+  - name: ProductHierarchyLevel3ID
+    data_type: string
+  - name: PCategoryHierarchyLevel3Text
+    data_type: string
+  - name: ProductHierarchyLevel4ID
+    data_type: string
+  - name: PCategoryHierarchyLevel4Text
+    data_type: string
+  - name: ProductHierarchyLevel5ID
+    data_type: string
+  - name: ProductHierarchyLevel6ID
+    data_type: string
+  - name: ProductHierarchyLevel7ID
+    data_type: string
+  - name: ProductHierarchyLevel8ID
+    data_type: string
+  - name: LanguageKey
+    data_type: string
+  - name: SAPECCCUDeclaredWeight
+    data_type: string
+connection_id: con_dev_masterdata_crossfunctional
+table: material_producthierarchy
