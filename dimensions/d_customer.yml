@@ -1,0 +1,46 @@
+unique_name: d_customer
+object_type: dimension
+label: Dim Customer
+hierarchies:
+  - unique_name: h_customer
+    label: Customer Hierarchy
+    levels:
+      - unique_name: customer_level_2
+      - unique_name: customer_level_1
+      - unique_name: customer_number
+level_attributes:
+  - unique_name: customer_number
+    label: Customer Number
+    contains_unique_names: false
+    dataset: customer_customernumber
+    is_unique_key: false
+    key_columns:
+      - CustomerNumber
+    name_column: CustomerNumber
+    sort_column: CustomerNumber
+  - unique_name: customer_level_1
+    label: Customer Level 1
+    contains_unique_names: false
+    dataset: customer_customerhierarchybw
+    is_unique_key: false
+    key_columns:
+      - HierarchyLevel1
+    name_column: HierarchyLevel1
+    sort_column: HierarchyNode1
+  - unique_name: customer_level_2
+    label: Customer Level 2
+    contains_unique_names: false
+    dataset: customer_customerhierarchybw
+    is_unique_key: false
+    key_columns:
+      - HierarchyLevel2
+    name_column: HierarchyLevel2
+relationships:
+  - from:
+      dataset: customer_customernumber
+      join_columns:
+        - CustomerHierarchyLevel1
+    to:
+      level: customer_level_1
+    type: snowflake
+type: standard

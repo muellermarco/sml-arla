@@ -1,0 +1,18 @@
+unique_name: d_sales_organization
+object_type: dimension
+label: Dim Sales Organization
+hierarchies:
+  - unique_name: h_sales_organization
+    label: Sales Org Hierarchy
+    levels:
+      - unique_name: sales_organization
+is_degenerate: true
+level_attributes:
+  - unique_name: sales_organization
+    label: Sales Organization
+    contains_unique_names: false
+    dataset: copaactualsdetailed
+    key_columns:
+      - Sales_Organization
+    name_column: Sales_Organization
+type: standard

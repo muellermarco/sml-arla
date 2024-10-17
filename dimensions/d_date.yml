@@ -1,0 +1,42 @@
+unique_name: d_date
+object_type: dimension
+label: Dim Date
+hierarchies:
+  - unique_name: h_date_month
+    label: Date Month Hierarchy
+    levels:
+      - unique_name: year_quarter
+      - unique_name: year_month
+      - unique_name: date
+is_degenerate: true
+level_attributes:
+  - unique_name: date
+    label: Date
+    contains_unique_names: false
+    dataset: copaactualsdetailed
+    key_columns:
+      - Calendar_Day
+    name_column: Calendar_Day
+    sort_column: Calendar_Day
+    time_unit: day
+  - unique_name: year_month
+    label: Month
+    contains_unique_names: false
+    dataset: copaactualsdetailed
+    is_unique_key: false
+    key_columns:
+      - Calendar_Year_Month
+    name_column: Calendar_Month
+    sort_column: Calendar_Year_Month
+    time_unit: month
+  - unique_name: year_quarter
+    label: Quarter
+    contains_unique_names: false
+    dataset: copaactualsdetailed
+    is_unique_key: false
+    key_columns:
+      - Calendar_Year_Quarter
+    name_column: Calendar_Year_Quarter
+    sort_column: Calendar_Year_Quarter
+    time_unit: quarter
+type: time

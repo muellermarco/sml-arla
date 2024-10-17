@@ -1,0 +1,6 @@
+unique_name: con_dev_masterdata_crossfunctional
+object_type: connection
+label: con_dev_masterdata_crossfunctional
+as_connection: arla
+database: dev_masterdata
+schema: crossfunctional

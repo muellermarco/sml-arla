@@ -1,0 +1,6 @@
+unique_name: con_dev_finance_finance
+object_type: connection
+label: con_dev_finance_finance
+as_connection: arla
+database: dev_finance
+schema: finance

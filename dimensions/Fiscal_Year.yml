@@ -1,0 +1,18 @@
+unique_name: Fiscal_Year
+object_type: dimension
+label: Fiscal Year
+hierarchies:
+  - unique_name: Fiscal_Year_Hierarchy
+    label: Fiscal Year Hierarchy
+    levels:
+      - unique_name: Fiscal_Year_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Fiscal_Year_Level
+    label: Fiscal Year Level
+    contains_unique_names: false
+    dataset: copaactualsdetailed
+    key_columns:
+      - Fiscal_Year
+    name_column: Fiscal_Year
+type: standard

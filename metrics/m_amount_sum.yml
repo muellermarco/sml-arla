@@ -1,0 +1,6 @@
+unique_name: m_amount_sum
+object_type: metric
+label: Amount
+calculation_method: sum
+column: Amount
+dataset: copaactualsdetailed

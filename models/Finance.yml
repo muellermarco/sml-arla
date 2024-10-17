@@ -1,0 +1,20 @@
+unique_name: Finance
+object_type: model
+label: Finance
+dimensions:
+  - Fiscal_Year
+  - Fiscal_Year_Period
+  - d_sales_organization
+  - d_date
+metrics:
+  - unique_name: m_amount_sum
+  - unique_name: m_volume_sum
+relationships:
+  - unique_name: copaactualsdetailed_Customer_Number_to_d_customer_customer_number
+    from:
+      dataset: copaactualsdetailed
+      join_columns:
+        - Customer_Number
+    to:
+      dimension: d_customer
+      level: customer_number

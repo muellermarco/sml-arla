@@ -1,0 +1,180 @@
+unique_name: customer_customernumber
+object_type: dataset
+label: customer_customernumber
+columns:
+  - name: CustomerAccountGroup
+    data_type: string
+  - name: CustomerAccountGroupText
+    data_type: string
+  - name: Address
+    data_type: string
+  - name: AfsSapNumberForCustomerDc
+    data_type: string
+  - name: AfsCustomerIdentificationInPartnerSystem
+    data_type: string
+  - name: ApoLocation
+    data_type: string
+  - name: ApoLocationText
+    data_type: string
+  - name: BusinessPartner
+    data_type: string
+  - name: BusinessPartnerText
+    data_type: string
+  - name: CountryKey
+    data_type: string
+  - name: CountryKeyText
+    data_type: string
+  - name: CustomerNumber
+    data_type: string
+  - name: CustomerNumberText
+    data_type: string
+  - name: CustomerClassification
+    data_type: string
+  - name: CustomerClassificationText
+    data_type: string
+  - name: CustomerMarket
+    data_type: string
+  - name: CustomerMarketText
+    data_type: string
+  - name: CustomerIsConsumer
+    data_type: string
+  - name: DunsNumber
+    data_type: string
+  - name: DunsNumberText
+    data_type: string
+  - name: MatchRecommendedFlag
+    data_type: string
+  - name: FiscalYearVariant
+    data_type: string
+  - name: TaxNumber3
+    data_type: string
+  - name: IndicatorIsTheAccountAOneTimeAccount
+    data_type: string
+  - name: IndustryKey
+    data_type: string
+  - name: IndustryKeyText
+    data_type: string
+  - name: IndustryCode1
+    data_type: string
+  - name: IndustryCode1Text
+    data_type: string
+  - name: IndustryCode2
+    data_type: string
+  - name: IndustryCode2Text
+    data_type: string
+  - name: IndustryCode3
+    data_type: string
+  - name: IndustryCode3Text
+    data_type: string
+  - name: IndustryCode4
+    data_type: string
+  - name: IndustryCode4Text
+    data_type: string
+  - name: IndustryCode5
+    data_type: string
+  - name: IndustryCode5Text
+    data_type: string
+  - name: KeyAccount
+    data_type: string
+  - name: LanguageKey
+    data_type: string
+  - name: SourceSystem
+    data_type: string
+  - name: NielsenId
+    data_type: string
+  - name: NielsenIdText
+    data_type: string
+  - name: BranchCategory
+    data_type: string
+  - name: BranchCategoryText
+    data_type: string
+  - name: PartnerCompanyNumber
+    data_type: string
+  - name: PartnerCompanyNumberText
+    data_type: string
+  - name: Plant
+    data_type: string
+  - name: PlantText
+    data_type: string
+  - name: PostalCode
+    data_type: string
+  - name: CamPoBoxPostalCode
+    data_type: string
+  - name: CamPostalCodeGeoRelevant
+    data_type: string
+  - name: RegionStateProvinceCounty
+    data_type: string
+  - name: RegionStateProvinceCountyText
+    data_type: string
+  - name: SortField
+    data_type: string
+  - name: TaxNumber1
+    data_type: string
+  - name: TaxNumber2
+    data_type: string
+  - name: UsageIndicatorForMaterial
+    data_type: string
+  - name: UsageIndicatorForMaterialText
+    data_type: string
+  - name: VatRegistrationNumber
+    data_type: string
+  - name: VatRegistrationNumberText
+    data_type: string
+  - name: Vendor
+    data_type: string
+  - name: VendorText
+    data_type: string
+  - name: PredefinedCallFrequency
+    data_type: string
+  - name: PredefinedCallFrequencyText
+    data_type: string
+  - name: IncludeExcludeInSc
+    data_type: string
+  - name: ArlaSpecificCustomerGrouping
+    data_type: string
+  - name: CustomerHierarchyLevel1
+    data_type: string
+  - name: CustomerHierarchyLevel1Text
+    data_type: string
+  - name: CustomerHierarchyLevel2
+    data_type: string
+  - name: CustomerHierarchyLevel2Text
+    data_type: string
+  - name: CustomerHierarchyLevel3
+    data_type: string
+  - name: CustomerHierarchyLevel3Text
+    data_type: string
+  - name: CustomerHierarchyLevel4
+    data_type: string
+  - name: CustomerHierarchyLevel4Text
+    data_type: string
+  - name: CustomerHierarchyLevel5
+    data_type: string
+  - name: CustomerHierarchyLevel5Text
+    data_type: string
+  - name: CustomerGroup
+    data_type: string
+  - name: CustomerGroupText
+    data_type: string
+  - name: DutyFreeCustomerIndicator
+    data_type: string
+  - name: DutyFreeCustomer
+    data_type: string
+  - name: LocationCode
+    data_type: string
+  - name: SearchTerm2
+    data_type: string
+  - name: Top40Customer
+    data_type: string
+  - name: Top40CustomerText
+    data_type: string
+  - name: TopCustomerFlag
+    data_type: string
+  - name: GeoLocationHeight
+    data_type: string
+  - name: LatitudeOfTheGeoLocation
+    data_type: string
+  - name: LongitudeOfTheGeoLocation
+    data_type: string
+connection_id: con_dev_masterdata_crossfunctional
+table: customer_customernumber

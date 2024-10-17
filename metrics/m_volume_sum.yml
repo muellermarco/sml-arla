@@ -1,0 +1,6 @@
+unique_name: m_volume_sum
+object_type: metric
+label: Volume
+calculation_method: sum
+column: Volume
+dataset: copaactualsdetailed

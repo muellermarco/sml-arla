@@ -1,0 +1,190 @@
+unique_name: copaactualsdetailed
+object_type: dataset
+label: copaactualsdetailed
+columns:
+  - name: Document_Number
+    data_type: string
+  - name: Item_Number
+    data_type: string
+  - name: Created_On
+    data_type: datetime
+  - name: Fiscal_Year
+    data_type: string
+  - name: Fiscal_Year_Variant
+    data_type: string
+  - name: Material
+    data_type: string
+  - name: Transaction_Type
+    data_type: string
+  - name: Currency_Type
+    data_type: string
+  - name: VERSION
+    data_type: string
+  - name: Company_Code
+    data_type: string
+  - name: Profit_Center
+    data_type: string
+  - name: Controlling_Area
+    data_type: string
+  - name: Partner_Profit_Center
+    data_type: string
+  - name: Partner_Profitcenter_Elimination
+    data_type: string
+  - name: Posting_Level
+    data_type: string
+  - name: Source
+    data_type: string
+  - name: Key_Figure_Name
+    data_type: string
+  - name: RECORDMODE
+    data_type: string
+  - name: Date
+    data_type: string
+  - name: Calendar_Day
+    data_type: datetime
+  - name: Posting_Date_In_The_Document
+    data_type: datetime
+  - name: Goods_Issue_Date
+    data_type: datetime
+  - name: Posting_Period
+    data_type: string
+  - name: Calendar_Year_Month
+    data_type: string
+  - name: Calendar_Month
+    data_type: string
+  - name: Quarter
+    data_type: string
+  - name: Calendar_Year_Quarter
+    data_type: string
+  - name: Calendar_Year_Week
+    data_type: string
+  - name: Calendar_Year
+    data_type: string
+  - name: Document_Currency
+    data_type: string
+  - name: Currency_Key
+    data_type: string
+  - name: Un_Invoiced_Quantity
+    data_type: string
+  - name: Un_Net_Weight
+    data_type: string
+  - name: Un_Invoiced_qty_In_SKU
+    data_type: string
+  - name: Un_Volume
+    data_type: string
+  - name: Material_group
+    data_type: string
+  - name: Plant_Material
+    data_type: string
+  - name: Region_State_Province_County
+    data_type: string
+  - name: Work_Breakdown_Structure_Element_WBS_Element
+    data_type: string
+  - name: Contains_Value_For_ZPRODCAT
+    data_type: string
+  - name: Country_Key
+    data_type: string
+  - name: Country_Of_Origin
+    data_type: string
+  - name: Global_Brand
+    data_type: string
+  - name: Product_Category
+    data_type: string
+  - name: Material_Group_5
+    data_type: string
+  - name: MRO_NPD_Masterdata_Mapping
+    data_type: string
+  - name: SA_BB_MAT_Mrkt_Com
+    data_type: string
+  - name: Sales_Market
+    data_type: string
+  - name: Sending_Cost_Center
+    data_type: string
+  - name: Sender_Business_Process
+    data_type: string
+  - name: Sales_Employee
+    data_type: string
+  - name: Business_Area
+    data_type: string
+  - name: Distribution_Channel
+    data_type: string
+  - name: Division
+    data_type: string
+  - name: Arla_Foods_Division
+    data_type: string
+  - name: Plant
+    data_type: string
+  - name: Sales_Organization
+    data_type: string
+  - name: Sales_District
+    data_type: string
+  - name: Cost_Center
+    data_type: string
+  - name: Customer_Hierarchy_Level_2
+    data_type: string
+  - name: Customer_Hierarchy_Level_3
+    data_type: string
+  - name: Customer_Hierarchy_Level_1
+    data_type: string
+  - name: Sales_Group
+    data_type: string
+  - name: Ship_To_Country
+    data_type: string
+  - name: Sold_To_Country
+    data_type: string
+  - name: Sold_To_Sales_View
+    data_type: string
+  - name: Sold_To_Party
+    data_type: string
+  - name: Sold_To_Ret_FServ_Mapping
+    data_type: string
+  - name: Ship_To_Sales_View
+    data_type: string
+  - name: Goods_Recipient
+    data_type: string
+  - name: Customer_Number
+    data_type: string
+  - name: Customer_Number_Sales_View
+    data_type: string
+  - name: Customer_Group
+    data_type: string
+  - name: Chart_Of_Accounts
+    data_type: string
+  - name: Valuation_View
+    data_type: string
+  - name: Value_Type_For_Reporting
+    data_type: string
+  - name: Billing_Type
+    data_type: string
+  - name: Reference_Document_Number_For_CO_PA_Line_Item
+    data_type: string
+  - name: Sales_Document
+    data_type: string
+  - name: Sales_Document_Item
+    data_type: string
+  - name: Canceled_Document_Item
+    data_type: string
+  - name: Reversed_Document
+    data_type: string
+  - name: Cost_Element
+    data_type: string
+  - name: Cost_Object
+    data_type: string
+  - name: Order_Number
+    data_type: string
+  - name: Amount
+    data_type: decimal(17,2)
+  - name: Exchange_Rate_For_Pricing_And_Statistics
+    data_type: double
+  - name: Invoiced_Quantity
+    data_type: decimal(17,3)
+  - name: Net_Weight
+    data_type: decimal(17,3)
+  - name: Invoiced_qty_In_SKU
+    data_type: decimal(17,3)
+  - name: Volume
+    data_type: decimal(17,3)
+  - name: Fiscal_Year_Period
+    data_type: string
+connection_id: con_dev_finance_finance
+table: copaactualsdetailed

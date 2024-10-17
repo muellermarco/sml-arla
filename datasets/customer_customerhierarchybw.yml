@@ -1,0 +1,78 @@
+unique_name: customer_customerhierarchybw
+object_type: dataset
+label: customer_customerhierarchybw
+columns:
+  - name: HierarchyId
+    data_type: string
+  - name: HierarchyName
+    data_type: string
+  - name: ObjectName
+    data_type: string
+  - name: NodeId
+    data_type: int
+  - name: CustomerNumber
+    data_type: string
+  - name: CustomerDescription
+    data_type: string
+  - name: HierarchyNode1
+    data_type: int
+  - name: HierarchyLevel1
+    data_type: string
+  - name: HierarchyLevel1Description
+    data_type: string
+  - name: HierarchyNode2
+    data_type: int
+  - name: HierarchyLevel2
+    data_type: string
+  - name: HierarchyLevel2Description
+    data_type: string
+  - name: HierarchyNode3
+    data_type: int
+  - name: HierarchyLevel3
+    data_type: string
+  - name: HierarchyLevel3Description
+    data_type: string
+  - name: HierarchyNode4
+    data_type: int
+  - name: HierarchyLevel4
+    data_type: string
+  - name: HierarchyLevel4Description
+    data_type: string
+  - name: HierarchyNode5
+    data_type: int
+  - name: HierarchyLevel5
+    data_type: string
+  - name: HierarchyLevel5Description
+    data_type: string
+  - name: HierarchyNode6
+    data_type: int
+  - name: HierarchyLevel6
+    data_type: string
+  - name: HierarchyLevel6Description
+    data_type: string
+  - name: HierarchyNode7
+    data_type: int
+  - name: HierarchyLevel7
+    data_type: string
+  - name: HierarchyLevel7Description
+    data_type: string
+  - name: HierarchyNode8
+    data_type: int
+  - name: HierarchyLevel8
+    data_type: string
+  - name: HierarchyLevel8Description
+    data_type: string
+  - name: HierarchyNode9
+    data_type: int
+  - name: HierarchyLevel9
+    data_type: string
+  - name: HierarchyLevel9Description
+    data_type: string
+  - name: HierarchyNode10
+    data_type: int
+  - name: HierarchyLevel10
+    data_type: string
+  - name: HierarchyLevel10Description
+    data_type: string
+connection_id: con_dev_masterdata_crossfunctional
+table: customer_customerhierarchybw
