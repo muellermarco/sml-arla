@@ -1,10 +1,69 @@
 unique_name: d_date
 object_type: dimension
 label: Dim Date
+calculation_groups:
+  - unique_name: TimeIntelligence
+    name: Time Intelligence
+    description: time intelligence to apply to other measures
+    calculated_members:
+      - unique_name: YTD
+        name: YTD
+        description: Year to Date
+        expression: >-
+          Sum(PeriodsToDate([d_date].[h_date_month].[year],
+          [d_date].[h_date_month].CurrentMember),[Measures].currentMember)
+        format: '#,###.0;(#,###.0)'
+      - unique_name: QTD
+        name: QTD
+        description: Quarter to Date
+        expression: >-
+          Sum(PeriodsToDate([d_date].[h_date_month].[year_quarter],
+          [d_date].[h_date_month].CurrentMember),[Measures].currentMember)
+        format: '#,###.0;(#,###.0)'
+      - unique_name: PY
+        name: PY
+        description: Previous Year
+        expression: >-
+          (ParallelPeriod([d_date].[h_date_month].[year], 1,
+          [d_date].[h_date_month].CurrentMember), [Measures].currentMember)
+        format: '#,###.0;(#,###.0)'
+      - unique_name: Previous
+        name: Previous
+        description: Previous Member
+        expression: >-
+          ([d_date].[h_date_month].CurrentMember.prevMember,
+          [Measures].currentMember)
+        format: '#,###.0;(#,###.0)'
+      - unique_name: YoY
+        name: YoY
+        description: Year over Year
+        expression: >-
+          (([d_date].[h_date_month].CurrentMember, [Measures].currentMember) -
+          (ParallelPeriod([d_date].[h_date_month].[year], 1,
+          [d_date].[h_date_month].CurrentMember), [Measures].currentMember ))
+        format: '#,###.0;(#,###.0)'
+      - unique_name: YoY_pct
+        name: YoY Pct
+        description: Year over Year
+        expression: >-
+          DIVIDE((([d_date].[h_date_month].CurrentMember,
+          [Measures].currentMember) - 
+          (ParallelPeriod([d_date].[h_date_month].[year], 1,
+          [d_date].[h_date_month].CurrentMember), [Measures].currentMember )),
+          (ParallelPeriod([d_date].[h_date_month].[year], 1,
+          [d_date].[h_date_month].CurrentMember), [Measures].currentMember))
+        format: percent
+      - unique_name: CurrentMember
+        name: CurrentMember
+        description: value of the current Member
+        expression: ([d_date].[h_date_month].CurrentMember, [Measures].currentMember)
+        format: '#,###.0;(#,###.0)'
+    folder: Time Intelligence
 hierarchies:
   - unique_name: h_date_month
     label: Date Month Hierarchy
     levels:
+      - unique_name: year
       - unique_name: year_quarter
       - unique_name: year_month
       - unique_name: date
@@ -39,4 +98,14 @@ level_attributes:
     name_column: Calendar_Year_Quarter
     sort_column: Calendar_Year_Quarter
     time_unit: quarter
+  - unique_name: year
+    label: Year
+    contains_unique_names: false
+    dataset: copaactualsdetailed
+    is_unique_key: false
+    key_columns:
+      - Calendar_Year
+    name_column: Calendar_Year
+    sort_column: Calendar_Year
+    time_unit: year
 type: time
