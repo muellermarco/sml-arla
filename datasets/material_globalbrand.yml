@@ -1,0 +1,30 @@
+unique_name: material_globalbrand
+object_type: dataset
+label: material_globalbrand
+columns:
+  - name: Global_Brand
+    data_type: string
+  - name: Global_Brand_Level_1
+    data_type: string
+  - name: Global_Brand_Level_1_Text
+    data_type: string
+  - name: Global_Brand_Level_2
+    data_type: string
+  - name: Global_Brand_Level_2_Text
+    data_type: string
+  - name: Global_Brand_Level_3
+    data_type: string
+  - name: Global_Brand_Level_3_Text
+    data_type: string
+  - name: Global_Brand_Level_4
+    data_type: string
+  - name: Global_Brand_Level_4_Text
+    data_type: string
+  - name: Global_Brand_Level_5
+    data_type: string
+  - name: Global_Brand_Level_5_Text
+    data_type: string
+  - name: Global_Brand_Text
+    data_type: string
+connection_id: con_dev_masterdata_crossfunctional
+table: material_globalbrand
