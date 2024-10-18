@@ -1,0 +1,59 @@
+unique_name: d_global_brand
+object_type: dimension
+label: Dim Global Brand
+hierarchies:
+  - unique_name: h_global_brand
+    label: Global Brand Hierarchy
+    levels:
+      - unique_name: global_brand_level_1
+      - unique_name: global_brand_level_2
+      - unique_name: global_brand_level_3
+      - unique_name: global_brand_level_4
+      - unique_name: global_brand_level_5
+level_attributes:
+  - unique_name: global_brand_level_5
+    label: Global Brand Level 5
+    contains_unique_names: false
+    dataset: material_globalbrand
+    is_unique_key: false
+    key_columns:
+      - Global_Brand_Level_5
+    name_column: Global_Brand_Level_5_Text
+    sort_column: Global_Brand_Level_5
+  - unique_name: global_brand_level_4
+    label: Global Brand Level 4
+    contains_unique_names: false
+    dataset: material_globalbrand
+    is_unique_key: false
+    key_columns:
+      - Global_Brand_Level_4
+    name_column: Global_Brand_Level_4_Text
+    sort_column: Global_Brand_Level_4
+  - unique_name: global_brand_level_3
+    label: Global Brand Level 3
+    contains_unique_names: false
+    dataset: material_globalbrand
+    is_unique_key: false
+    key_columns:
+      - Global_Brand_Level_3
+    name_column: Global_Brand_Level_3_Text
+    sort_column: Global_Brand_Level_3
+  - unique_name: global_brand_level_2
+    label: Global Brand Level 2
+    contains_unique_names: false
+    dataset: material_globalbrand
+    is_unique_key: false
+    key_columns:
+      - Global_Brand_Level_2
+    name_column: Global_Brand_Level_2_Text
+    sort_column: Global_Brand_Level_2
+  - unique_name: global_brand_level_1
+    label: Global Brand Level 1
+    contains_unique_names: false
+    dataset: material_globalbrand
+    is_unique_key: false
+    key_columns:
+      - Global_Brand_Level_1
+    name_column: Global_Brand_Level_1_Text
+    sort_column: Global_Brand_Level_1
+type: standard
