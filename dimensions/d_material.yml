@@ -28,4 +28,15 @@ relationships:
       dimension: d_brand
       level: brand_level_5
     type: embedded
+  - unique_name: material_material_GlobalBrandLevel5_to_d_global_brand_global_brand_level_5
+    from:
+      dataset: material_material
+      hierarchy: h_material
+      join_columns:
+        - GlobalBrandLevel5
+      level: material_number
+    to:
+      dimension: d_global_brand
+      level: global_brand_level_5
+    type: embedded
 type: standard

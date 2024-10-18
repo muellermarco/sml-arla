@@ -4,3 +4,4 @@ label: Volume
 calculation_method: sum
 column: Volume
 dataset: copaactualsdetailed
+format: '#,##0;(#,##0)'

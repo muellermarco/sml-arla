@@ -4,3 +4,4 @@ label: Amount
 calculation_method: sum
 column: Amount
 dataset: copaactualsdetailed
+format: '#,##0;(#,##0)'
